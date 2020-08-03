@@ -1229,6 +1229,104 @@ li {
 
 
 
+
+/* tabs */
+
+
+#tab_menu{
+  width: 90%;
+  margin: auto;
+  margin-bottom: 200px;
+  background: #05091f;
+  padding-left: 100px;
+  /* margin-right: 0px; */
+  padding-right: 100px;
+  /* margin-top: 200px; */
+  margin-bottom: 200px;
+  padding-top: 90px;
+}
+
+.menu_inner {
+  background: #b11ee9;
+  /* margin-bottom: 100px; */
+}
+
+
+
+.tabordion {
+  display: block;
+  position: relative;
+  width: 99%;
+  padding-bottom: 350px;
+  background: #b11ee9;
+}
+
+.tabordion input[name="sections"] {
+  position: absolute;
+}
+
+
+.tabordion section label {
+  background: #b11ee9;
+  /* border:1px solid #64ffda; */
+  cursor: pointer;
+  display: block;
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 15px 20px;
+  position: relative;
+  width: 180px;
+  z-index:1;
+  width: 220px;
+
+}
+
+.tabordion section article {
+  display: none;
+  left: 230px;
+  position: absolute;
+  top: 0;
+  padding: 30px;
+
+}
+
+.arti_menu {
+  padding-left: 30px;
+}
+
+
+.comp_name {
+  color: #fff;
+  padding-top: 0px;
+  padding-bottom: 18px;
+}
+
+
+.tabordion input[name="sections"]:checked + label {
+  background: #05091f;
+  color: #b11ee9;
+}
+
+.tabordion input[name="sections"]:checked ~ article {
+  display: block;
+}
+
+.date_job{
+  padding-left: 90px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 /* footer */
 
 
