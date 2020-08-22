@@ -1173,8 +1173,8 @@ button:hover {
 
 .box_glow{ position: relative; width: 900px; height: 450px; display: flex; justify-content: center; align-content: center; background: #060c21; padding:25px;}
 .box_glow::before{ content: ''; position: absolute; top: -2px; bottom: -2px; left: -2px; right: -2px; background: #fff; z-index: -1;}
-.box_glow::after{ content: ''; position: absolute; top: -2px; bottom: -2px; left: -2px; right: -2px; background: #fff; z-index: -1; filter: blur(40px);}
-.box_glow::before, .box_glow::after{ background: linear-gradient(235deg, #FF0000, #060c21, #0000FF);}
+.box_glow::after{ content: ''; position: absolute; top: -2px; bottom: -2px; left: -2px; right: -2px; background: #fff; z-index: -1; filter: blur(17px);}
+.box_glow::before, .box_glow::after{ background: linear-gradient(210deg, #FF0000, #060c21, #0000FF);}
 .glow_h2{ margin-bottom: 10px;}
 .glow_p{line-height: 24px;}
 
@@ -1232,7 +1232,6 @@ li {
 
 /* tabs */
 
-
 #tab_menu{
   width: 90%;
   margin: auto;
@@ -1247,7 +1246,8 @@ li {
 }
 
 .menu_inner {
-  background: #b11ee9;
+  background: #8892b0;
+  /* padding-left: 200px; */
   /* margin-bottom: 100px; */
 }
 
@@ -1258,8 +1258,12 @@ li {
   position: relative;
   width: 99%;
   padding-bottom: 350px;
-  background: #b11ee9;
+  background: #8892b0;
+  /* padding: -left: -200px; */
 }
+/* section label article{
+  padding-left: -200px;
+} */
 
 .tabordion input[name="sections"] {
   position: absolute;
@@ -1267,8 +1271,8 @@ li {
 
 
 .tabordion section label {
-  background: #b11ee9;
-  /* border:1px solid #64ffda; */
+  background: #05091f;
+  /* border:1px solid #05091f; */
   cursor: pointer;
   display: block;
   font-size: 1.2em;
@@ -1278,6 +1282,8 @@ li {
   width: 180px;
   z-index:1;
   width: 220px;
+  border-right: 2px solid #05091f;
+  color: #8892b0;
 
 }
 
@@ -1289,6 +1295,9 @@ li {
   padding: 30px;
 
 }
+
+
+
 
 .arti_menu {
   padding-left: 30px;
@@ -1303,9 +1312,23 @@ li {
 
 
 .tabordion input[name="sections"]:checked + label {
-  background: #05091f;
-  color: #b11ee9;
+  background: #8892b0;
+  color: #64ffda;
+  border-left: 7px solid #64ffda;
+  /* border-top: 1px solid #05091f; */
+  border-bottom: 2px solid #64ffda;
+  border-right: 0px solid #05091f;
+  text-shadow: 3px 3px 8px #000000;
+  /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+
+  font-size: 1.5em;
+  /* text-si */
+
+  /* font-display: fallback; */
+  /* border-top: 1px solid #fff; */
+
 }
+
 
 .tabordion input[name="sections"]:checked ~ article {
   display: block;
