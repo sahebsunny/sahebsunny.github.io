@@ -1454,3 +1454,287 @@ li i {
   }
 
 }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 410px) {
+  .p_1st {
+    font-size: 60px;
+    padding-left: 200px;
+    padding-top: 70px;
+    /* margin-right: -200px; */
+    padding-bottom: 30px;
+    /* padding-top: 50px; */
+    margin-top: 100px;
+
+  }
+  /* html{
+    margin-left: 0;
+  } */
+  header{
+    /* margin-right: -840px; */
+    /* font-size: 30px; */
+  }
+  .log_1_hm {
+    font-size: 65px;
+    color: #ff022c;
+
+  }
+
+  .log_2_hm {
+    font-size: 65px;
+    color: #fff;
+
+  }
+  .btnn {
+    font-size: 42px;
+  }
+  button {
+    font-size: 50px;
+  }
+  .h1_susho {
+    font-size: 175px;
+    /* margin-right: -500px; */
+  }
+  #h2_paddding {
+    /* font-size: 100px; */
+    /* margin-right: -650px; */
+    /* padding-top: 20px; */
+
+  }
+  .i_build{
+    padding-top: 20px;
+    font-size: 95px;
+  }
+  .h3_iam{
+    font-size: 58px;
+    /* margin-right: -200px; */
+    /* padding-top: 10px; */
+  }
+  .verticle_right {
+    font-size: 26px;
+    /* margin-right: -700px; */
+    padding-right: 70px;
+    padding-left: 40px;
+
+
+  }
+  .jumbo_1{
+    margin-top: 350px;
+    margin-right: 200px;
+  }
+  body{
+    margin-right: -1100px;
+
+  }
+
+
+  .jumbo_2{
+    font-size: 45px;
+  }
+
+
+
+  .container_box_about {
+    width: 910px;
+
+  }
+  .container_box_about ._box_about {
+    /* position: relative; */
+    height: 1500px;
+
+  }
+
+  ._box_about .contain_box_about h3 {
+    font-size: 70px;
+  }
+
+
+
+  ._box_about .contain_box_about p {
+    font-size: 47px;
+
+  }
+  .box {
+    height: 100vh;
+    /* margin-top: 200px; */
+  }
+
+  .me_image{
+    /* object-fit: cover; */
+    width: 68%;
+    height: 90%;
+    /* height: 250px; */
+  }
+  .glow_box_top{
+    padding-top: 300px;
+  }
+  .box_glow{
+    width: 85%;
+    height: 2250px;
+  }
+  .content{
+    font-size: 43px;
+  }
+  .glow_h2_skl {
+    font-size: 69px;
+
+  }
+  .glow_div {
+    display: block;
+  }
+  li {
+    font-size: 40px;
+  }
+
+  .tabordion{
+    height: 1800px;
+
+  }
+
+  .tabordion section label {
+    background: #05091f;
+    /* border:1px solid #05091f; */
+    cursor: pointer;
+    display: block;
+    font-size: 3.2em;
+    font-weight: bold;
+    padding: 15px 20px;
+    position: relative;
+    width: 280px;
+    z-index:1;
+    width: 320px;
+    border-right: 2px solid #05091f;
+    color: #8892b0;
+
+  }
+  .tabordion input[name="sections"]:checked + label {
+    background: #8892b0;
+    color: #64ffda;
+    border-left: 7px solid #64ffda;
+    /* border-top: 1px solid #05091f; */
+    border-bottom: 2px solid #64ffda;
+    border-right: 0px solid #05091f;
+    text-shadow: 3px 3px 8px #000000;
+    /* text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue; */
+
+    font-size: 3.5em;
+
+    /* text-si */
+
+    /* font-display: fallback; */
+    /* border-top: 1px solid #fff; */
+
+  }
+  .tabordion section article {
+    display: none;
+    left: 330px;
+    position: absolute;
+    top: 0;
+    padding: 30px;
+    font-size: 2.9em;
+
+
+  }
+  .menu_inner {
+    width: 100%;
+    /* margin-right: -100px; */
+  }
+  .tabordion{
+    margin-right: -100px;
+
+  }
+  #tab_menu{
+    width: 90%;
+    /* height: 1100px; */
+    margin: auto;
+    margin-bottom: 200px;
+    background: #05091f;
+    padding-left: 10px;
+    /* margin-right: 0px; */
+    padding-right: 10px;
+    /* margin-top: 200px; */
+    margin-bottom: 200px;
+    padding-top: 90px;
+  }
+
+  .date_job{
+    padding-left: 250px;
+    font-size: 40px;
+  }
+
+
+
+
+
+  .footer_h2 {
+    margin: 10px 0;
+    font-size: 66px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-left: 30%;
+    padding-bottom: 10px;
+    margin-top: -14px;
+    margin-left: -60px;
+  }
+
+  .border_foot {
+    height: 2px;
+    width: 1050px;
+    background: #05091f;
+
+  }
+
+  .foot_ul {
+    list-style: none;
+     color: #fff;
+     font-size: 65px;
+     letter-spacing: 0.5px;
+     padding-left: 15%;
+     padding-top: 15px;
+
+  }
+
+
+
+  .footer_inner {
+    width: 95%;
+    margin: auto;
+    /* padding: 30px 10px; */
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-bottom: -10px;
+    /* padding-left: -100px; */
+    margin-left: 100px;
+
+  }
+  .footer_items {
+    width: 100%;
+    padding: 100px;
+  }
+  .foot_ul li{
+    padding: 50px;
+    font-size: 50px;
+    margin-left: -40px;
+  }
+
+
+
+
+
+
+}
+
+
+
+
+
