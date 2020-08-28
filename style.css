@@ -847,6 +847,7 @@ button:hover {
   padding-right: 300px;
   /* margin-left: 200px; */
   padding-left: 130px;
+  padding-bottom: 100px;
 }
 
 
@@ -1158,6 +1159,7 @@ button:hover {
   width: 100%;
   background: #8892b0;
   display: block;
+  padding: 15px;
 
 }
 
@@ -1181,6 +1183,10 @@ button:hover {
 /* .glow_box_top{
   border-bottom: solid 20px;
 } */
+.parallax-window {
+    min-height: 800px;
+    background: transparent;
+}
 
 .box_glow{ position: relative; width: 900px; height: 450px; display: flex; justify-content: center; align-content: center; background: #000033;}
 .box_glow::before{ content: ''; position: absolute; top: -2px; bottom: -2px; left: -2px; right: -2px; background: #fff; z-index: -1;}
@@ -1195,7 +1201,11 @@ button:hover {
 }
 
 .glow_box_top {
-  padding-bottom: 200px;
+  padding-bottom: 130px;
+  padding-top: 130px;
+}
+.content{
+  margin: 0px;
 }
 
 .glow_h2 {
@@ -1253,7 +1263,7 @@ li {
   padding-right: 100px;
   /* margin-top: 200px; */
   margin-bottom: 200px;
-  padding-top: 90px;
+  padding-top: 150px;
 }
 
 .menu_inner {
@@ -1555,6 +1565,13 @@ li i {
   }
 
 
+  /* .parallax-window {
+      min-height: 1800px;
+      background: transparent;
+      background-attachment: fixed;
+      background-size: cover;
+  } */
+
 
   .container_box_about {
     width: 910px;
@@ -1591,7 +1608,7 @@ li i {
     padding-top: 300px;
   }
   .box_glow{
-    width: 85%;
+    width: 70%;
     height: 2250px;
   }
   .content{
