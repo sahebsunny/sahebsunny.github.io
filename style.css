@@ -870,6 +870,8 @@ button:hover {
 
 #icon_links_left {
   padding-left: 50px;
+  position: sticky;
+
   /* padding-top: 90px; */
 }
 
@@ -892,6 +894,8 @@ button:hover {
   /* padding-top: 90px;
   position: relative;
   left: 50px; */
+  position: sticky;
+
   cursor: pointer;
 }
 
@@ -1146,6 +1150,7 @@ button:hover {
 
 
 
+
 /* jumbo */
 
 
@@ -1168,10 +1173,16 @@ button:hover {
   justify-content: center;
 }
 
+/* .glow_box_top{
+  background: #ff0000;
+  padding-top: 160px;
+  z-index: 5;
+} */
+/* .glow_box_top{
+  border-bottom: solid 20px;
+} */
 
-
-
-.box_glow{ position: relative; width: 900px; height: 450px; display: flex; justify-content: center; align-content: center; background: #060c21; padding:25px;}
+.box_glow{ position: relative; width: 900px; height: 450px; display: flex; justify-content: center; align-content: center; background: #000033;}
 .box_glow::before{ content: ''; position: absolute; top: -2px; bottom: -2px; left: -2px; right: -2px; background: #fff; z-index: -1;}
 .box_glow::after{ content: ''; position: absolute; top: -2px; bottom: -2px; left: -2px; right: -2px; background: #fff; z-index: -1; filter: blur(17px);}
 .box_glow::before, .box_glow::after{ background: linear-gradient(210deg, #FF0000, #060c21, #0000FF);}
@@ -1188,7 +1199,7 @@ button:hover {
 }
 
 .glow_h2 {
-  color: #64ffda;
+  color: #66ccff;
   font-weight: lighter;
 }
 
@@ -1212,7 +1223,7 @@ button:hover {
 .glow_h2_skl {
   padding: 10px;
   font-size: 19px;
-  color: #a8b2d1;
+  color: #0000FF;
 
 }
 
@@ -1229,8 +1240,8 @@ li {
 
 
 
-
 /* tabs */
+
 
 #tab_menu{
   width: 90%;
@@ -1246,7 +1257,7 @@ li {
 }
 
 .menu_inner {
-  background: #8892b0;
+  background: #ff6600;
   /* padding-left: 200px; */
   /* margin-bottom: 100px; */
 }
@@ -1258,7 +1269,7 @@ li {
   position: relative;
   width: 99%;
   padding-bottom: 350px;
-  background: #8892b0;
+  background: #ff6600;
   /* padding: -left: -200px; */
 }
 /* section label article{
@@ -1312,7 +1323,7 @@ li {
 
 
 .tabordion input[name="sections"]:checked + label {
-  background: #8892b0;
+  background: #ff6600;
   color: #64ffda;
   border-left: 7px solid #64ffda;
   /* border-top: 1px solid #05091f; */
@@ -1346,6 +1357,9 @@ li {
 
 
 
+/* 66ccff */
+
+
 
 
 
@@ -1355,7 +1369,7 @@ li {
 
 .footer_ {
   width: 100%;
-  background: #b11ee9;
+  background: #0099e6;
   display: block;
 }
 
@@ -1442,8 +1456,13 @@ li i {
 }
 
 
-
-
+/* .linkkkk_quik{
+  padding: 0px;
+  margin: 0px;
+} */
+.hacker_li{
+  padding-top: 0px;
+}
 
 
 
@@ -1451,20 +1470,15 @@ li i {
 @media screen and (max-width: 1085px){
   .footer_items {
     width: 56%;
+    /* height: 50%; */
+    /* padding: 10px; */
+    /* font-size: 4em; */
   }
 
 }
 
 
-
-
-
-
-
-
-
-
-@media (max-width: 700px) {
+@media (max-width: 740px) {
   .p_1st {
     font-size: 60px;
     padding-left: 200px;
@@ -1641,8 +1655,12 @@ li i {
     padding: 30px;
     font-size: 2.9em;
 
-
   }
+
+  .tabordion input[name="sections"]:checked + label {
+    background: #ff6600;
+  }
+
   .menu_inner {
     width: 100%;
     /* margin-right: -100px; */
@@ -1733,8 +1751,3 @@ li i {
 
 
 }
-
-
-
-
-
